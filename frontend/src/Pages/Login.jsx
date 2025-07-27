@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const apiUrl = "http://localhost:5000/api/auth";
+    const apiUrl = "https://street-food.onrender.com/api/auth";
     try {
       if (isSignup) {
         // Registration
